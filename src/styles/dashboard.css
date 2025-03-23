@@ -1,0 +1,29 @@
+  .dashboard-header {
+    padding: 16px;
+    background: var(--card-bg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .theme-button {
+    background: var(--card-bg);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48px;
+  }
+
+  .dashboard-title{
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  @media (max-width: 480px) {
+    .dashboard-title{
+      text-align: center;
+      margin-top: 1.1em;
+    }
+  }

@@ -1,0 +1,37 @@
+:root {
+  --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --background-light: #ffffff;
+  --color-light: #333;
+  --card-bg-light: #ebeaea;
+
+  --background-dark: #121212;
+  --color-dark: #fff;
+  --card-bg-dark: #1e1e1e;
+
+  --dialog-border-color-light: #c7c7c7;
+  --dialog-border-color-dark: #494949;
+  --dialog-color: #7f8c8d;
+
+  --secondary-color: #1a72ad;
+}
+
+[data-theme="light"] {
+  --background: var(--background-light);
+  --color: var(--color-light);
+  --card-bg: var(--card-bg-light);
+  --dialog-border-color: var( --dialog-border-color-light);
+}
+
+[data-theme="dark"] {
+  --background: var(--background-dark);
+  --color: var(--color-dark);
+  --card-bg: var(--card-bg-dark);
+  --dialog-border-color: var( --dialog-border-color-dark);
+}
+
+body {
+  background: var(--background);
+  color: var(--color);
+  font-family: var(--font-family);
+  margin: 0;
+}
