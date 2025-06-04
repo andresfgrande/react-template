@@ -1,5 +1,4 @@
 import ToggleButton from "./ToggleButton";
-import UserList from "./UserList";
 import "../styles/dashboard.css";
 
 export default function Dashboard() {
@@ -8,7 +7,6 @@ export default function Dashboard() {
           <header className="dashboard-header">
             <ToggleButton></ToggleButton>
           </header>
-          <UserList></UserList>
       </div>
     )
 }
